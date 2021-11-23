@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
-import styledComponent from "styled-components";
+import styled from "styled-components";
 
 import {
   AppBar,
@@ -13,7 +13,7 @@ import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import "./index.css";
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
 
-const ConnectButton = styledComponent(WalletDialogButton)``;
+const ConnectButton = styled(WalletDialogButton)``;
 const formatAddress = (addr:string) => { 
   const length = addr.length;
   return addr.substr(0,4) + ".." + addr.substr(length-4);
