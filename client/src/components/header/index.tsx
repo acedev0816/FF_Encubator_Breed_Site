@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import styled from "styled-components";
 import Countdown from "react-countdown";
+import styled from "styled-components";
+
 import {
   AppBar,
   Avatar,
