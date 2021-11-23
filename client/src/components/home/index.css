@@ -1,0 +1,79 @@
+.title {
+  margin-top: 15vh !important;
+  text-align: center;
+  font-family: cursive !important;
+}
+.red{
+  color:red!important;
+}
+.subtitle {
+  text-align: center;
+  font-family: cursive !important;
+}
+.image-card {
+  margin-top: 3vh;
+  border: 3px solid white !important;
+  border-radius: 10px;
+  width: 100%;
+  height: 40vh;
+}
+
+.bottom-title {
+  margin-top: 3vh!important;
+  text-align: center;
+  font-family: cursive !important;
+}
+
+.mint-button {
+    margin-top:10px!important;
+    width: 60%;
+    display:flex!important;
+    justify-content:center!important;
+}
+.built-on-solana{
+    display:flex;
+    justify-content:center;
+    align-items: center!important;
+}
+.built-on-solana .bottom-title{
+    margin-top:0px!important;
+} 
+.built-on-solana .MuiAvatar-circular{
+    margin-left:10px;
+    margin-right:5px;
+}
+
+.item-select{
+    width:100%;
+    font-family: cursive!important;
+}
+.row{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+.MuiAvatar-circular{
+  margin-right:10px;
+}
+.MuiSelect-selectMenu{
+  display:flex!important;
+  align-items:center;
+}
+
+.mutant-card{
+  position:relative;
+}
+.mutant-card .MuiTypography-root
+{
+  position:absolute;
+  right:10px;
+  bottom:10px;
+  color: green!important;
+  font-family:cursive!important;
+  font-weight: bold;
+  z-index:100;
+  font-size:1.5rem;
+  font-style: italic;
+  opacity:70%;
+
+}
